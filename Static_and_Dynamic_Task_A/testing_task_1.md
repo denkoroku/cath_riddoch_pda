@@ -29,6 +29,6 @@ def self.cards_total(cards)
   for card in cards
     total += card.value
     return "You have a total of" + total
-  #end                           end should be outside loop.
+  #end                           return should be outside the for loop.
 end
 ```
